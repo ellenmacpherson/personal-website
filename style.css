@@ -13,6 +13,7 @@ h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
+
 .wrapper {
     margin-bottom: -10vh;
 }
@@ -59,7 +60,6 @@ body {
 }
 
 .first-text h2{
-    font-weight: 100;
     padding: 20px;
 }
 
@@ -68,6 +68,11 @@ body {
     position: relative;
     top: 100vh;
     max-width: 100%;
+}
+
+.about p,
+.contact label{
+    font-weight: bold;
 }
 
 .second-image {
@@ -91,6 +96,7 @@ body {
     width: 50vw;
     top: 10vh;
     left: 0;
+    font-weight: 300
 }
 .second-text p {
     margin: 3vh 0;
@@ -268,7 +274,7 @@ footer {
   .top-nav #myLinks {
     display: none;
     font-family: 'Montserrat', serif;
-    font-weight: 100;
+    font-weight: 300;
     width: 25vw;
     position: absolute;
     z-index: 200;
