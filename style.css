@@ -25,8 +25,8 @@ body {
   }
   
 .first-image { 
-    top: 5vh;
-    width: 70vw;
+    top: 10vh;
+    width: 65vw;
     height: auto;
     float: left;
     z-index: 0;
