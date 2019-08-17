@@ -197,6 +197,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .success a {
@@ -222,6 +223,7 @@ footer {
 .form-info {
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -306,7 +308,7 @@ footer {
   .active {
     color: white;
   }
-  
+
   @media all and (max-width: 800px) {
     .wrapper {
         display: none;
