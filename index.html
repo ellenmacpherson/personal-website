@@ -13,11 +13,65 @@
     <title>Ellen Macpherson | Developer</title>
 </head>
 <body>
-    <section class="desktop-only">
-        <div class="desktop-only-text">
-            <h1>Mobile site coming soon</h1>
-            <p>Sorry, at the moment this site is only available on desktop devices. I'm working hard to design and develop the mobile site, so check back soon!</p>
-        </div>
+    <section class="mobile-only">
+        <header>
+            <div class="first-image" data-aos="fade-down"      data-aos-duration="3000">
+                    <img src="images/purple-wall.jpg" alt="Ellen standing against purple street-art, looking to the right.">
+            </div>
+            <div class="first-text" data-aos="fade-up"      data-aos-duration="3000" data-aos-delay="300">
+                <h1>Ellen Macpherson</h1>
+                <h2>Front end developer. Lover of human-centered design. Diversity advocate.</h2>
+            </div>
+        </header>
+
+        <main class="about" id="about">
+                <div class='second-image' data-aos="fade-down" data-aos-duration="3000">
+                    <img src="images/grey-wall.jpg" alt="Ellen standing against grey wall and looking up">
+                </div>
+                <div class='second-text' data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+                    <h1>About</h1> 
+                    <p>I'm a junior designer/developer currently based in Belfast, Northern Ireland, though I'm also available remotely.</p> 
+                    <p>Born in Sydney, I went to university in Scotland to study history and poltics. It was only during my Masters year that I realised my passion for coding, and I was lucky enough to get my start through Code First: Girls.</p>    
+                    <p>Day-to-day, I turn coffee into TV apps at BT. Outside of the 9-5, I build small apps, blogs and websites using HTML, CSS, JavaScript.</p> 
+                    <p>I'm all about about human-centered design, accessibility and user experience. So if you want to build an app your mum can use, let's have a chat.</p>   
+                    <p>Away from the computer, I am hugely passionate about seeing more diversity in tech spaces. Only 4% of software developers in the UK identify as female, and I'm keen to get involved in making that a much larger number. I am currently working with BT to improve their graduate and apprenticeship recruitment processes. </p>        
+                    </div>
+            </main>
+
+            <main class="contact" id="contact">
+                    <div class='third-image' data-aos="fade-up" data-aos-duration="3000">
+                        <img src="images/contact.jpg" alt="Women texting">
+                    </div>
+                    <div class='third-text' data-aos="fade-up"      data-aos-duration="3000" data-aos-delay="300">
+                        <h1>Contact</h1>   
+                        <form form name="contact" method="POST" data-netlify="true"></form>     
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                    
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            
+                            <input type="submit" value="Submit" class="submit">
+                        </div>
+                    </main>
+    
+        <footer>
+            <section class='social-icons'>
+                    <a href="https://twitter.com/ellen_dev" class='twitter'aria-label="twitter link"> <i class='fa fa-twitter'></i> </a>
+                    <a href="http://medium.com/@ellenmacpherson92/" class="medium" aria-label="medium blog link"><i class="fa fa-medium" ></i></a>
+                    <a href="https://www.linkedin.com/in/ellen-macpherson-6a380860/" class="linkedin" aria-label="linkedin link"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/ellenmacpherson" class="github" aria-label="github link"><i class="fa fa-github"></i></a>
+                    <a href="https://codepen.io/ellenmacpherson" class="codepen" aria-label="codepen link"><i class="fa fa-codepen" ></i></a>
+                </section>
+                <p class='copyright-tag'>Website designed and developed by Ellen Macpherson &#9400; 2019.</p>
+                <a href="#top"><p class='top-link'>Back to Top</p></a>
+             </footer>
         </section>
     <div class="container">
     <div class=wrapper>
