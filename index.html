@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="container">
+    <div class=wrapper>
+    <nav class=top-nav id="top">
+        <div class="menu-container" onclick="myFunction(this)">
+            <div class="menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div id="myLinks">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+<header >
+        <div class="first-image" data-aos="fade-up"      data-aos-duration="3000">
+            <img src="images/purple-wall.jpg" alt="Ellen standing against purple street-art, looking to the right.">
+        </div>
+        <div class="first-text" data-aos="fade-up"      data-aos-duration="3000" data-aos-delay="300">
+            <h1>Ellen Macpherson</h1>
+            <h2>Front end developer. Lover of human-centered design. Diversity advocate.</h2>
+        </div>
+</header>
+
+<main class="about" id="about">
+    <div class='second-image' data-aos="fade-up" data-aos-duration="3000">
+        <img src="images/grey-wall.jpg" alt="Ellen standing against grey wall and looking up">
+    </div>
+    <div class='second-text' data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+        <h1>About</h1> 
+        <p>I'm a junior designer/developer currently based in Belfast, Northern Ireland, though I'm also available remotely.</p> 
+        <p>Born in Sydney, I went to university in Scotland to study history and poltiics. It was only during my Masters year that I realised my passion for coding, and I was lucky enough to get my start through Code First: Girls.</p>    
+        <p>Day-to-day, I turn coffee into TV apps at BT. Outside of the 9-5, I build small apps, blogs and websites using HTML, CSS, JavaScript.</p> 
+        <p>I'm all about about human-centered design, accessibility and user experience. So if you want to build an app your mum can use, let's have a chat.</p>   
+        <p>Away from the computer, I am hugely passionate about seeing more diversity in tech spaces. Only 4% of software developers in the UK identify as female, and I'm keen to get involved in making that a much larger number. I am currently working with BT to improve their graduate and apprenticeship recruitment processes. </p>        
+        </div>
+</main>
+
+<main class="contact" id="contact">
+        <div class='third-image' data-aos="fade-up" data-aos-duration="3000">
+                <img src="images/contact.jpg" alt="Women texting">
+            </div>
+            <div class='third-text' data-aos="fade-up"      data-aos-duration="3000" data-aos-delay="300">
+                <h1>Contact</h1>   
+                <form action="mailto:ellenmacpherson@gmail.com"></form>     
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                    <label for="lname">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+            
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+        </main>
+
+    </div>
+        <footer>
+                <section class='social-icons'>
+                        <a href="https://twitter.com/ellen_dev" title="link to Twitter" class='twitter'> <i class='fa fa-twitter'></i> </a>
+                        <a href="http://medium.com/@ellenmacpherson92/" title="link to Medium" class="medium"><i class="fa fa-medium"></i></a>
+                        <a href="https://www.linkedin.com/in/ellen-macpherson-6a380860/" title="link to LinkedIn"class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="github.com/ellenmacpherson" title="link to Github" class="github"><i class="fa fa-github"></i></a>
+                        <a href="https://codepen.io/ellenmacpherson"  title="link to Codepen" class="codepen"><i class="fa fa-codepen"></i></a>
+                    </section>
+                    <p class='copyright-tag'>Website designed and developed by Ellen Macpherson &#9400; 2019.</p>
+                    <a href="#top"><p class='top-link'>Back to Top</p></a>
+
+        </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

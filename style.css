@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.wrapper {
+    margin-bottom: -10vh;
+}
+
+.container {
+    background: #F5E4D7;
+  }
+  
+.first-image { 
+    top: 5vh;
+    width: 70vw;
+    height: auto;
+    float: left;
+    z-index: 0;
+    left: 2vw;
+    position: absolute;
+}
+
+.first-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.first-text { 
+    padding: 2%;
+    float: right;
+    z-index: 0;
+    position: absolute;
+    text-align: left;
+    right: 2vw;
+    top: 40vh;
+    width: 50vw;
+    height: auto;
+    background: white;
+}
+
+.first-text h1 {
+    padding: 20px;
+    color: black;
+    font-size: 4rem;
+}
+
+.first-text h2{
+    font-weight: 100;
+    padding: 20px;
+}
+
+.about {
+    padding: 0;
+    position: relative;
+    top: 100vh;
+    max-width: 100%;
+}
+
+.second-image {
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    right: 0;
+}
+
+.second-image img {
+    max-width: 100%;
+    margin-top: 30vh;
+    height: auto;
+}
+
+.second-text {
+    background: white;
+    padding: 6%;
+    height: auto;
+    position: absolute;
+    width: 50vw;
+    top: 10vh;
+    left: 0;
+}
+.second-text p {
+    margin: 3vh 0;
+}
+
+.contact {
+    position: relative;
+    top: 240vh;
+    width: 100%;
+}
+
+.third-image {
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    left: 1vw;
+}
+
+.third-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.third-text {
+    text-align: center;
+    background: white;
+    padding: 6%;
+    height: auto;
+    position: absolute;
+    width: 40vw;
+    top: -10vh;
+    right: 1vw;
+}
+
+.third-text input,
+.third-text label {
+    display: block;
+    width: 100%;
+}
+.third-text textarea {
+    width: 100%;
+}
+
+.third-text label {
+    padding-top: 10px;
+}
+
+.third-text .submit {
+    border: none;
+    background: #333;
+    color: #F5E4D7;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 1% auto;
+}
+
+
+.third-text .submit:hover {
+    background: #ac0227;
+}
+
+footer {
+    position: absolute;
+    top: 300vh;
+    height: 15vh;
+    width: 100vw;
+    bottom: 0;
+    left:0;
+    margin-top: 30vh;
+}
+
+.social-icons {
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.social-icons a {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #595959;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
+.copyright-tag,
+.top-link {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #595959;
+    text-align: center;
+}
+
+
+.menu-container {
+    display: inline-block;
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    cursor: pointer;
+  }
+
+  .menu {
+      position: sticky;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .top-nav #myLinks {
+    display: none;
+    font-family: 'Montserrat', serif;
+    font-weight: 100;
+    width: 25vw;
+    position: absolute;
+    z-index: 200;
+    right: 5vw;
+    top: 5vw;
+    padding: 2% 0;
+  }
+  
+  /* Style navigation menu links */
+  .top-nav a {
+    color: #F5E4D7;
+    background: #333;
+    opacity: 0.8;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+  }
+  
+  /* Style the hamburger menu */
+  .top-nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .top-nav a:hover {
+    background-color: #ac0227;
+    /* color: black; */
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+  }
