@@ -190,6 +190,41 @@ footer {
 }
 
 
+.success {
+    min-height: 100vh;
+    max-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.success a {
+    border: none;
+    background: #333;
+    color: #F5E4D7;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 2% auto;
+}
+
+
+.success a:hover {
+    background: #ac0227;
+}
+
+.form-submitted {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-info {
+    justify-content: center;
+    align-items: center;
+}
+
+
 .menu-container {
     display: inline-block;
     position: absolute;
@@ -278,7 +313,7 @@ footer {
     }
 
     html {
-        max-height: 100vh;
+        min-height: 100vh;
         max-width: 100vw;
         background: white;
     }
