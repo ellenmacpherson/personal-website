@@ -306,7 +306,7 @@ footer {
   .active {
     color: white;
   }
-
+  
   @media all and (max-width: 800px) {
     .wrapper {
         display: none;

@@ -44,20 +44,14 @@
                     </div>
                     <div class='third-text' data-aos="fade-up"      data-aos-duration="3000" data-aos-delay="300">
                         <h1>Contact</h1>   
-                        <form form name="contact" method="POST" data-netlify="true"></form>     
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Email">
-                    
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                            
-                            <input type="submit" value="Submit" class="submit">
+                        <form name="form" netlify method="POST" action="success.html">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="Your email">
+            
+                                <label for="message">Message</label>
+                                <textarea name="message" placeholder="Write your message here." rows=5></textarea>
+                                <button type="submit" id="submit" action='success.html'>Send</button>
+                            </form>
                         </div>
                     </main>
     
