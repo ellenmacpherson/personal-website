@@ -134,6 +134,9 @@ body {
     right: 1vw;
 }
 
+.third-text h1 {
+    text-align: left;
+
 .third-text input,
 .third-text label {
     display: block;
